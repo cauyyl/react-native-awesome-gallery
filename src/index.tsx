@@ -400,7 +400,7 @@ const ResizableImage = React.memo(
         origin.x.value = adjustedFocal.x.value;
         origin.y.value = adjustedFocal.y.value;
       })
-      .onUpdate(({ scale: s, focalX, focalY, numberOfPointers }) => {
+      .onUpdate(({ scale: s, numberOfPointers }) => {
         'worklet';
         if (!isActive.value) return;
         if (numberOfPointers !== 2) return;
