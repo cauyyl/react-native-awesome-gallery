@@ -414,7 +414,7 @@ const ResizableImage = React.memo(
 
         scale.value = nextScale;
 
-        setAdjustedFocal({ focalX, focalY });
+        //setAdjustedFocal({ focalX, focalY });
 
         translation.x.value =
           adjustedFocal.x.value +
